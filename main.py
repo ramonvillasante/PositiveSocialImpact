@@ -18,9 +18,15 @@ import webapp2
 class MainPage(webapp2.RequestHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'text/plain'
-        self.response.write('Welcome to PositiveSocialImpact!')
-
-
+        self.response.write('Welcome to PositiveSocialImpact! ')
+        self.response.write('PositiveSocialImpact is a web app to make positive impact action to sustainable development.') 
+		self.response.write('This web app is based on the sustainable development research')
+		self.response.write('and feedback of 80 user interviews integrated in this prototype https://invis.io/9874GSJS6.')
+		self.response.write('We have a pitch deck https://goo.gl/yZ1eWT for the social enterprise planned when the first funding round could be achieved.')
+		self.response.write('Check out this information and give us your feedback and collaboration ideas. Thank you! :)')
+		self.response.write('This web is under development and will we updated every 1 or 2 weeks')
+		self.response.write('Last update: 1 Ago 2017')
+		
 app = webapp2.WSGIApplication([
     ('/', MainPage),
 ], debug=True)
