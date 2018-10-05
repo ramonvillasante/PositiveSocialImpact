@@ -24,8 +24,7 @@ class MainPage(webapp2.RequestHandler):
         self.response.write('and feedback of 80 user interviews integrated in this prototype https://invis.io/9874GSJS6. \n')
         self.response.write('We have a pitch deck https://goo.gl/yZ1eWT for the social enterprise planned when the first funding round could be achieved. \n')
         self.response.write('Check out this information and give us your feedback and collaboration ideas. Thank you! :) \n')
-        self.response.write('This web is under development and will we updated every 1 or 2 weeks. \n')
-        self.response.write('Last update: 1 Ago 2017 \n')
+        self.response.write('This web is under development. \n')
         
         
         
